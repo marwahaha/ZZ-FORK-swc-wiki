@@ -10,7 +10,7 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
     * Ensure that the student has run the program `mysys` and not `git-cmd` - the latter will not open the bash emulator environment.
 
 * User has created/saved files and doesn't know where they are
-    * Have users run `cd` after opening Git Bash and before doing anything else - this will place users in a home directory with Desktop as a subdirectory. `cd` then `cd Desktop` will place users on their Desktop. (#56)
+    * Have users run `cd` after opening Git Bash and before doing anything else - this will place users in a home directory with Desktop as a subdirectory. `cd` then `cd Desktop` will place users on their Desktop. ([#56](../issues/56))
 
 ### Python
 
@@ -34,4 +34,4 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
     * Appears to be a bug in 1.8.4, as user is prompted even if global config is set with email address. This should only occur on first commit.
 
 * `git push` to a Github repo fails with error `could not read Username for https:...: No such device or address`
-    * Bug in Git Bash 1.8.5 - have users install 1.8.4. (#234)
+    * Bug in Git Bash 1.8.5 - have users install 1.8.4. ([#234](../issues/234))
