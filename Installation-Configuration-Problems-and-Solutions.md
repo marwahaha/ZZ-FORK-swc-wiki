@@ -1,0 +1,37 @@
+Despite our best efforts to ensure that bootcamp attendees configure their computers ahead of time, installation and configuration issues pop up frequently during bootcamps. This page collates common configuration problems encountered by instructors and presents their solutions.
+
+**To instructors**: Please feel free to edit this page to add new problems and solutions to the appropriate sections as you encounter them. The only requirement is that you should have only add a problem once you have identified and confirmed a solution that at least worked for the cases that you encountered personally. If you encounter a problem that you don't know how to solve, please raise it in an issue in the `bc` repo so that the community can find a resolution.
+
+### Bash
+
+**Windows (Git Bash)**
+
+* None of the bash commands seem to work, although the student opened "Git Bash" and the command window is open
+    * Ensure that the student has run the program `mysys` and not `git-cmd` - the latter will not open the bash emulator environment.
+
+* User has created/saved files and doesn't know where they are
+    * Have users run `cd` after opening Git Bash and before doing anything else - this will place users in a home directory with Desktop as a subdirectory. `cd` then `cd Desktop` will place users on their Desktop.
+
+### Python
+
+**All**
+
+* Command `ipython notebook` fails with `ipython not found`-type error
+    * Very likely that Canopy or Anaconda did not properly append path to Python installation on system path  (on Canopy, this easily occurs if students do not open GUI after installation or if they accidentally select "No" when asked if they want to make Canopy the default Python environment). To fix, export path in .bash_profile. On a Mac using Canopy, command is `PATH=/Users/<username>/Library/Enthought/Canopy_64bit/User/bin:$PATH; export PATH`
+
+* Imports of scientific Python packages fails from a command line interpreter or script (i.e., `python myfile.py`) even though user installed Canopy/Anaconda
+    * Ensure that path to Canopy/Anaconda python comes before path to system Python (see above). Check with `which python` and make sure is Canopy/Anaconda.
+
+* IPython notebook appears to be running but no output is shown after cells are run
+    * Ensure that Ad blocker extensions are not active in browser
+    * If all else fails and user has Canopy, notebooks can be opened and run directly from Canopy GUI
+
+### git
+
+**Windows (Git Bash)**
+
+* User is prompted to enter email address on first commit
+    * Appears to be a bug in 1.8.4, as user is prompted even if global config is set with email address. This should only occur on first commit.
+
+* `git push` to a Github repo fails with error `could not read Username for https:...: No such device or address`
+    * Bug in Git Bash 1.8.5 - have users install 1.8.4
