@@ -12,6 +12,9 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
 * User has created/saved files and doesn't know where they are
     * Have users run `cd` after opening Git Bash and before doing anything else - this will place users in a home directory with Desktop as a subdirectory. `cd` then `cd Desktop` will place users on their Desktop. ([#56](../issues/56))
 
+* Copy/paste doesn't work in the command window
+    * To copy, right click the title bar and find "Mark" in the menu. Then you can use the mouse to select text - anything you select is automatically copied. There's a menu item for paste. There don't appear to be keyboard shortcuts readily available. ([#140](../issues/140))
+
 ### Python
 
 **All**
