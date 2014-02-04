@@ -35,3 +35,15 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
 
 * `git push` to a Github repo fails with error `could not read Username for https:...: No such device or address`
     * Bug in Git Bash 1.8.5 - have users install 1.8.4. ([#234](../issues/234))
+
+**Linux**
+
+* Permission denied (public key) on pushing to Github
+
+    * Has several causes and thus several solutions. [Github has a list](https://help.github.com/articles/error-permission-denied-publickey), in a nutshell:
+        * Don't use sudo (and check whether the permissions for SSH keys are correct)
+        * Connection problems or weird routing problems: ```ssh -vT git@github.com``` should print ```github.com``` and port 22
+        * Connect only as user ```git``` 
+        * Check whether ```ssh-add -l``` prints a key, if not, create one
+        * Check whether ```ssh-keygen -lf ~/.ssh/id_rsa.pub``` prints several keys, and check which one GitHub uses in the account settings
+        * You can always troubleshoot more using ```ssh -vT git@github.com```
