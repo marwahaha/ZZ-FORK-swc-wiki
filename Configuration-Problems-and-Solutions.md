@@ -38,6 +38,7 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
 
 * `git push` to a Github repo fails with error `could not read Username for https:...: No such device or address`
     * Bug in Git Bash 1.8.5 - have users install 1.8.4. ([#234](../issues/234))
+    * This appears to be an issue with the default credential store. Changing the credential store will solve the problem, but I don't see the right command in a quick Google search. I'll look again later...
 
 **Linux**
 
