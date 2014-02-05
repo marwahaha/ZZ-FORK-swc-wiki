@@ -1,1 +1,1 @@
-Welcome to the bc wiki!
+* [[Configuration Problems and Solutions]]
