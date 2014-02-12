@@ -13,7 +13,7 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
     * Have users run `cd` after opening Git Bash and before doing anything else - this will place users in a home directory with Desktop as a subdirectory. `cd` then `cd Desktop` will place users on their Desktop. ([#56](../issues/56))
 
 * Copy/paste doesn't work in the command window
-    * To copy, right click the title bar and find "Mark" in the menu. Then you can use the mouse to select text - anything you select is automatically copied. There's a menu item for paste, but the "Insert" key is a shortcut. ([#140](../issues/140))
+    * To copy, right click the title bar and go to Edit -> Mark. Then you can use the mouse to select text and anything you select is copied. You can use Edit -> Paste to paste, or the Insert key is a shortcut. ([#140](../issues/140))
 
 ### Python
 
