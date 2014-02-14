@@ -43,6 +43,9 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
       * `git remote rm origin`
       * `git remote add origin 'git@github.com:username/repo.git'`
 
+* Configuring the git editor to a Windows program like Notepad++.exe is not intuitive. If the path to the program is not in the PATH, changing the system environment variable may require a restart. Additionally, the editor program may open with the previous session and tabs, causing the commit to abort. The following setup works for Notepad++ (adjust for the correct install path for 32-bit / 64-bit executable):
+`git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"`
+
 **Linux**
 
 * Permission denied (public key) on pushing to Github
