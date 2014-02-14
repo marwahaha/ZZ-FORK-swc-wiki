@@ -39,6 +39,9 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
 * `git push` to a Github repo fails with error `could not read Username for https:...: No such device or address`
     * Bug in Git Bash 1.8.5 - have users install 1.8.4. ([#234](../issues/234))
     * This appears to be an issue with the default credential store. Changing the credential store will solve the problem, but I don't see the right command in a quick Google search. I'll look again later...
+    * If Git Bash 1.8.5 has been installed, using ssh instead of https for the push is a workaround, but takes several minutes to set up. First [generate and set up the SSH key](https://help.github.com/articles/generating-ssh-keys#platform-windows). After generating the ssh key and setting up github to use it, change the origin from the git repository directory (replace username and repo name below):
+      * `git remote rm origin`
+      * `git remote add origin 'git@github.com:username/repo.git'`
 
 **Linux**
 
