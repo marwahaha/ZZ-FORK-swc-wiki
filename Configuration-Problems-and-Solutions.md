@@ -57,3 +57,11 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
         * Check whether ```ssh-add -l``` prints a key, if not, create one
         * Check whether ```ssh-keygen -lf ~/.ssh/id_rsa.pub``` prints several keys, and check which one GitHub uses in the account settings
         * You can always troubleshoot more using ```ssh -vT git@github.com```
+
+* error 403 returned on a git push to github
+
+  * This is usually caused by an older version of git. GitHub now [requires git 1.7.10 or later](https://help.github.com/articles/https-cloning-errors).
+
+* a git push results in a dialog requiring a password to unlock the private key: "Enter password to unlock the private key. An application wants access to the private key xxxxx".
+
+  * This can be caused by an ssh agent, such as Gnome Keyring, managing ssh keys when these are already managed with OpenSSH. [Disable SSH keyring support in Gnome](https://wiki.gnome.org/Projects/GnomeKeyring/Ssh). 
