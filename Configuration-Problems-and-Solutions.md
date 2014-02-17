@@ -54,7 +54,7 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
          * Select `Git/SVN`
          * Under `Git executable` select `Browse`
          * Navigate to and select following file: `C:/Progarm Files (x64)/git/bin/git`
-   * Restart Rstduio
+   * Restart Rstudio
 
 
 
