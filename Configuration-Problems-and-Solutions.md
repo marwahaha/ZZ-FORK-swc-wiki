@@ -46,6 +46,18 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
 * Configuring the git editor to a Windows program like Notepad++.exe is not intuitive. If the path to the program is not in the PATH, changing the system environment variable may require a restart. Additionally, the editor program may open with the previous session and tabs, causing the commit to abort. The following setup works for Notepad++ (adjust for the correct install path for 32-bit / 64-bit executable):
 `git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"`
 
+**Windows (Rstduio)**: 
+
+* git tab does not appear in Rstudio
+    * You need to tell Rstudio where to find your git executable. Assuming you are using gitbash,
+         * Go to `Tools -> Global options` 
+         * Select `Git/SVN`
+         * Under `Git executable` select `Browse`
+         * Navigate to and select following file: `C:/Progarm Files (x64)/git/bin/git`
+   * Restart Rstduio
+
+
+
 **Linux**
 
 * Permission denied (public key) on pushing to Github
@@ -65,3 +77,4 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
 * a git push results in a dialog requiring a password to unlock the private key: "Enter password to unlock the private key. An application wants access to the private key xxxxx".
 
   * This can be caused by an ssh agent, such as Gnome Keyring, managing ssh keys when these are already managed with OpenSSH. [Disable SSH keyring support in Gnome](https://wiki.gnome.org/Projects/GnomeKeyring/Ssh). 
+
