@@ -27,6 +27,8 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
 
 * IPython notebook appears to be running but no output is shown after cells are run
     * Ensure that Ad blocker extensions are not active in browser
+    * Turn off Windows Sophos (see https://github.com/ipython/ipython/wiki/Dev:-Windows-Sophos-issues)
+    * Try `ipython notebook --ip=localhost`
     * If all else fails and user has Canopy, notebooks can be opened and run directly from Canopy GUI
 
 ### git
