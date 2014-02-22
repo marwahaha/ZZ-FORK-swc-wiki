@@ -58,7 +58,11 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
          * Navigate to and select following file: `C:/Progarm Files (x64)/git/bin/git`
    * Restart Rstudio
 
+**Windows (Mac)**
 
+* typing in a git command returns "sh. git command not found"
+
+* Attempting to clone a repository returns a git credential-osxkeychain error message
 
 **Linux**
 
