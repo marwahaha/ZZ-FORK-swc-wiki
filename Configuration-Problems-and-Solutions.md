@@ -25,6 +25,22 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
 * Imports of scientific Python packages fails from a command line interpreter or script (i.e., `python myfile.py`) even though user installed Canopy/Anaconda
     * Ensure that path to Canopy/Anaconda python comes before path to system Python (see above). Check with `which python` and make sure it is Canopy/Anaconda version.
 
+* New users can't easily open an IPython notebook in an arbitrary directory
+    * The start menu shortcut created by Anaconda starts a notebook server in %USERPROFILE%\Documents\IPython Notebooks" by default.
+    * New users, who may be unfamiliar with the command prompt, might have trouble opening a notebook in any other directory.
+    * A simple batch file with the single-line command "ipython notebook" will start a notebook server in any directory from which it is run.
+    * To make a batch file script that opens an ipython notebook in whatever directory it's run from:
+        1. Create a simple .txt file: Right Click -> New ->  Text Document
+        2. Re-name it "Start IPython Notebook Here.bat" (don't forget to change the extension!)
+        3. Open it with notepad: Right Click on it -> Edit
+        4. Add the text "ipython notebook" to the file -- it should look just like you would type it in a command prompt.
+        5. Save & close.
+
+    * Now when a user double clicks on the .bat file, a notebook server will spawn in that directory. 
+    * The user can move the .bat file to wherever they want their IPython notebook's working directory to be. 
+    * The user can make copies of the .bat file, and stash one in all the directories they frequently use.
+    * Instructors can distribute a copy of the file in the same folder as any example notebooks, so the users can just double-click-and-go in the correct directory. No need to teach users the command prompt. 
+    
 * IPython notebook appears to be running but no output is shown after cells are run
     * Ensure that Ad blocker extensions are not active in browser
     * Turn off Windows Sophos (see https://github.com/ipython/ipython/wiki/Dev:-Windows-Sophos-issues)
