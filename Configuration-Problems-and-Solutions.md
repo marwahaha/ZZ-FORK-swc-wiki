@@ -25,6 +25,15 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
 * Imports of scientific Python packages fails from a command line interpreter or script (i.e., `python myfile.py`) even though user installed Canopy/Anaconda
     * Ensure that path to Canopy/Anaconda python comes before path to system Python (see above). Check with `which python` and make sure it is Canopy/Anaconda version.
 
+
+    
+* IPython notebook appears to be running but no output is shown after cells are run
+    * Ensure that Ad blocker extensions are not active in browser
+    * Turn off Windows Sophos (see https://github.com/ipython/ipython/wiki/Dev:-Windows-Sophos-issues)
+    * Try `ipython notebook --ip=localhost`
+    * If all else fails and user has Canopy, notebooks can be opened and run directly from Canopy GUI
+
+**Windows (Anaconda)**
 * New users can't easily open an IPython notebook in an arbitrary directory
     * The start menu shortcut created by Anaconda starts a notebook server in %USERPROFILE%\Documents\IPython Notebooks" by default.
     * New users, who may be unfamiliar with the command prompt, might have trouble opening a notebook in any other directory.
@@ -40,12 +49,6 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
     * The user can move the .bat file to wherever they want their IPython notebook's working directory to be. 
     * The user can make copies of the .bat file, and stash one in all the directories they frequently use.
     * Instructors can distribute a copy of the file in the same folder as any example notebooks, so the users can just double-click-and-go in the correct directory. No need to teach users the command prompt. 
-    
-* IPython notebook appears to be running but no output is shown after cells are run
-    * Ensure that Ad blocker extensions are not active in browser
-    * Turn off Windows Sophos (see https://github.com/ipython/ipython/wiki/Dev:-Windows-Sophos-issues)
-    * Try `ipython notebook --ip=localhost`
-    * If all else fails and user has Canopy, notebooks can be opened and run directly from Canopy GUI
 
 ### git
 
@@ -99,4 +102,3 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
 * a git push results in a dialog requiring a password to unlock the private key: "Enter password to unlock the private key. An application wants access to the private key xxxxx".
 
   * This can be caused by an ssh agent, such as Gnome Keyring, managing ssh keys when these are already managed with OpenSSH. [Disable SSH keyring support in Gnome](https://wiki.gnome.org/Projects/GnomeKeyring/Ssh). 
-
