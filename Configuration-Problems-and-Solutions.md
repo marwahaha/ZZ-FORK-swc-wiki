@@ -44,13 +44,18 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
         3. Open it with notepad: Right Click on it -> Edit
         4. Add the text "ipython notebook" to the file -- it should look just like you would type it in a command prompt.
         5. Save & close.
-
     * Now when a user double clicks on the .bat file, a notebook server will spawn in that directory. 
     * The user can move the .bat file to wherever they want their IPython notebook's working directory to be. 
     * The user can make copies of the .bat file, and stash one in all the directories they frequently use.
     * Instructors can distribute a copy of the file in the same folder as any example notebooks, so the users can just double-click-and-go in the correct directory. No need to teach users the command prompt. 
 
 ### git
+
+**All**
+
+* When pushing to GitHub, username/password are rejected, although student knows that they are correct
+    * Some students have needed to use their full email address, rather than their username, in the username field.
+    * (Although this makes little sense) Try hitting backspace many times in the password field to "clear out old password info". This might be a Git Bash issue, but unconfirmed.
 
 **Windows (Git Bash)**
 
@@ -76,6 +81,11 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
          * Under `Git executable` select `Browse`
          * Navigate to and select following file: `C:/Progarm Files (x64)/git/bin/git`
    * Restart Rstudio
+
+**Mac**
+
+* Running `git` command fails with `Illegal operation`-type error
+    * It appears that git 1.9.x is incompatible with Snow Leopard (10.6), although this is not stated on  installer page. Try uninstalling and re-installing 1.8.x.
 
 **Linux**
 
