@@ -88,6 +88,9 @@ Despite our best efforts to ensure that bootcamp attendees configure their compu
     * It appears that git 1.9.x is incompatible with Snow Leopard (10.6), although this is not stated on  installer page. Try uninstalling and re-installing 1.8.x.
     * We experienced this problem with both 10.6 & 10.7 and installing 1.8.x did not solve the issue (in at least one case)
 
+* Had a failure including "lazy symbol binding failed" on 10.8.5
+    * most advice involved installing XCode with the `command line tools` (didn't try given the 1.6 GB download)
+
 **Linux**
 
 * Permission denied (public key) on pushing to Github
