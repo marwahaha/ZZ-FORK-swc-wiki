@@ -59,6 +59,7 @@ so that the community can find a resolution.
     *   Turn off Windows Sophos
         (see [https://github.com/ipython/ipython/wiki/Dev:-Windows-Sophos-issues](https://github.com/ipython/ipython/wiki/Dev:-Windows-Sophos-issues)).
     *   Try `ipython notebook --ip=localhost`
+    *   Whitelist `127.0.0.1:8888` in the firewall settings
     *   If all else fails and the user has Canopy,
         notebooks can be opened and run directly from the Canopy GUI.
 
