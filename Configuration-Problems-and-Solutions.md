@@ -42,6 +42,7 @@ so that the community can find a resolution.
         On a Mac using Canopy,
         for example,
         the command to do this is:
+
         ~~~
         export PATH=/Users/<username>/Library/Enthought/Canopy_64bit/User/bin:$PATH
         ~~~
