@@ -144,6 +144,24 @@ so that the community can find a resolution.
     *   Most online advice involved installing XCode with the command line tools,
         which is a 1.6 GByte download...
 
+*   Trying to clone a repository from github fails with an error like `error: SSL certificate problem, verify that the CA cert is OK`
+    *   A temporary fix that should allow the learner to progress with the lesson is to run
+
+        ~~~
+        export GIT_SSL_NO_VERIFY=true`
+        ~~~
+
+    *   This setting change will not persist after rebooting the machine. The error is probably caused by expired SSL certificates and should be fixed by updating the OS.
+    *   If an OS update is not possible, you can also try installing the tigerbrew port of git, like so:
+
+        ~~~
+        ruby -e "$(curl -fsSkL raw.github.com/mistydemeo/tigerbrew/go/install)"
+        export PATH=/usr/local/sbin:/usr/local/bin:$PATH
+        brew install git
+        hash -r
+        git clone ...
+        ~~~
+
 **Linux**
 
 *   Permission denied (public key) on pushing to Github.
