@@ -82,6 +82,13 @@ so that the community can find a resolution.
         so the users can just double-click-and-go in the correct directory
         without ever seeing a command-line prompt.
 
+
+**Mac(Anaconda)**
+
+*  If a ValueError about locale and UTF-8 occurs when launching IPython notebook, this document
+   discusses the solution: <http://conda.pydata.org/docs/troubleshooting.html#issue-valueerror-unknown-locale-utf-8-on-mac-os-x>
+
+
 #### Git
 
 **All**
