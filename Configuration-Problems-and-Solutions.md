@@ -83,6 +83,9 @@ so that the community can find a resolution.
         so the users can just double-click-and-go in the correct directory
         without ever seeing a command-line prompt.
 
+* matplotlib import error when non-ASCII characters are present in the user's current working directory or user name
+    * See matplotlib issue [3516](https://github.com/matplotlib/matplotlib/issues/3516/)
+    * If attendee has permission on their computer, then re-install Anaconda in another location without non-ASCII characters in the directory path e.g. C:\Local\
 
 **Mac(Anaconda)**
 
