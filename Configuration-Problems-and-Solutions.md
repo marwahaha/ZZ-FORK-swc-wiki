@@ -54,6 +54,7 @@ so that the community can find a resolution.
         if not,
         ensure that path to Canopy or Anaconda's Python
         is before the system's Python in the path.
+    * Ask if the user wants their path restored after the workshop and, if so, ensure this is done.
     
 *   The IPython notebook appears to be running but no output is shown after cells are run.
     *   Ensure that ad blocker extensions are not active in the browser.
