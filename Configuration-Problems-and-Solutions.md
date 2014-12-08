@@ -10,6 +10,8 @@ If you encounter a problem that you don't know how to solve,
 please raise it in an issue in the [repo](http://github.com/swcarpentry/bc)
 so that the community can find a resolution.
 
+---
+
 #### Bash
 
 **Windows (Git Bash)**
@@ -28,6 +30,8 @@ so that the community can find a resolution.
         Then you can use the mouse to select text and anything you select is copied.
         You can use Edit->Paste to paste,
         or the Insert key is a shortcut.
+
+---
 
 #### Python
 
@@ -92,6 +96,7 @@ so that the community can find a resolution.
 *  If a ValueError about locale and UTF-8 occurs when launching IPython notebook, this document
    discusses the solution: <http://conda.pydata.org/docs/troubleshooting.html#issue-valueerror-unknown-locale-utf-8-on-mac-os-x>
 
+---
 
 #### Git
 
