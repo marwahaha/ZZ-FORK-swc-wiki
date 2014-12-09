@@ -127,6 +127,14 @@ so that the community can find a resolution.
         *   `git remote rm origin`
         *   `git remote add origin git@github.com:username/repo.git`
 
+* `git push` to BitBucket using `git@bitbucket.org:USER/REPOSITORY` gives `Permission denied (publickey). fatal: Could not read from remote repository.`
+
+    * This can happen if a user has set up BitBucket to use SSH keys but the SSH keys are not present on 
+      the machine they are using for the workshop (e.g. they have the SSH keys on their desktop but not their
+      laptop).
+    * A workaround is to use `https://bitbucket.org/USER/REPOSITORY` and they will be prompted for their
+      username and password.
+
 *   Configuring the git editor to a Windows program like Notepad++.exe is not intuitive.
     If the path to the program is not in the PATH,
     changing the system environment variable may require a restart.
