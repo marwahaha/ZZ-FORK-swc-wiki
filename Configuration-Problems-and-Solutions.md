@@ -156,7 +156,7 @@ so that the community can find a resolution.
         *   Go to `Tools->Global options`.
         *   Select `Git/SVN`.
         *   Under `Git executable` select `Browse`.
-        *   Navigate to and select following file: `C:/Progarm Files (x64)/git/bin/git`.
+        *   Navigate to and select following file: `C:/Program Files (x64)/git/bin/git`.
     *   Restart Rstudio.
 
 **Mac**
