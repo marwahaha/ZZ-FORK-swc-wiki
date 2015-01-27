@@ -91,6 +91,11 @@ so that the community can find a resolution.
     * See matplotlib issue [3516](https://github.com/matplotlib/matplotlib/issues/3516/)
     * If attendee has permission on their computer, then re-install Anaconda in another location without non-ASCII characters in the directory path e.g. C:\Local\
 
+* Chrome reports the installation file as malicious. 
+  * According to the vendor, requires verification by Chrome, which is pending,  
+  * It is okay to ignore this warning, and the next "do you really want to harm your computer?"
+  * See issue [swcarpentry/workshop-template#146](https://github.com/swcarpentry/workshop-template/issues/146)
+
 **Mac(Anaconda)**
 
 *  If a ValueError about locale and UTF-8 occurs when launching IPython notebook, this document
