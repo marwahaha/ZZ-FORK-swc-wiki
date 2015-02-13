@@ -167,7 +167,7 @@ so that the community can find a resolution.
 **Mac**
 
 *   Running the `git` command fails with an error like `Illegal operation`.
-    *   It appears that git 1.9.x is incompatible with Mac OS X 10.6 and 10.7.  [Version 1.8.4.2](https://code.google.com/p/git-osx-installer/downloads/detail?name=git-1.8.4.2-intel-universal-snow-leopard.dmg) works for Mac OS X 10.6.8 (newest release of Snow Leopard).  Other older installers are available from [https://code.google.com/p/git-osx-installer/downloads/list](https://code.google.com/p/git-osx-installer/downloads/list). 
+    *   It appears that git 1.9.x is incompatible with Mac OS X 10.6 and 10.7.  [Version 1.8.4.2](https://code.google.com/p/git-osx-installer/downloads/detail?name=git-1.8.4.2-intel-universal-snow-leopard.dmg) works for Mac OS X 10.6.8 (newest release of Snow Leopard).  Other older installers are available from [http://sourceforge.net/projects/git-osx-installer/files/](http://sourceforge.net/projects/git-osx-installer/files/). 
 
 *   Running `git` on Mac OS X 10.8.5 produced an error message reporting "lazy symbol binding failed".
     *   Most online advice involved installing XCode with the command line tools,
