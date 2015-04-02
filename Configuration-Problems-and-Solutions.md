@@ -172,6 +172,7 @@ so that the community can find a resolution.
 *   Running `git` on Mac OS X 10.8.5 produced an error message reporting "lazy symbol binding failed".
     *   Most online advice involved installing XCode with the command line tools,
         which is a 1.6 GByte download...
+    *   Note that as April 2015, XCode for Mac OS X 10.8.5 is no longer available from the App Store, so you'll need to get an older version from the [Apple Developer website](https://developer.apple.com/downloads). For that you'll need a Developer account with Apple (so probably an instructor should do download this in advance and keep it in a USB stick).
 
 *   Trying to clone a repository from github fails with an error like `error: SSL certificate problem, verify that the CA cert is OK`
     *   A temporary fix that should allow the learner to progress with the lesson is to run
