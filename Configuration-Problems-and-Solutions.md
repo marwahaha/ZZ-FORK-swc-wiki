@@ -215,3 +215,8 @@ so that the community can find a resolution.
         such as Gnome Keyring,
         managing SSH keys when these are already managed with OpenSSH.
         [Disable SSH keyring support in Gnome](https://wiki.gnome.org/Projects/GnomeKeyring/Ssh). 
+
+#### SQL (sqlite3)
+**Mac**
+
+*    Issue with sqlite3 and no readline support on the macs.  That is, up arrow will not return the last command typed.  This can be fixed, but requires installing sqlite3 from source: [sqlite3 shipts without readline support](http://muadib.blogspot.com/2005/04/sqlite3-ships-without-readline-support.html).
