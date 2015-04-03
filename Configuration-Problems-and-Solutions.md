@@ -7,7 +7,7 @@ The only requirement is that you should have only add a problem
 once you have identified and confirmed a solution
 that at least worked for the cases that you encountered personally.
 If you encounter a problem that you don't know how to solve,
-please raise it in an issue in the [repo](http://github.com/swcarpentry/bc)
+please raise it in an issue in the [repo][workshop-template]
 so that the community can find a resolution.
 
 ---
@@ -220,3 +220,5 @@ so that the community can find a resolution.
 **Mac**
 
 *    Issue with sqlite3 and no readline support on the macs.  That is, up arrow will not return the last command typed.  This can be fixed, but requires installing sqlite3 from source: [sqlite3 shipts without readline support](http://muadib.blogspot.com/2005/04/sqlite3-ships-without-readline-support.html).
+
+[workshop-template]: http://github.com/swcarpentry/workshop-template
