@@ -163,6 +163,7 @@ so that the community can find a resolution.
         *   Under `Git executable` select `Browse`.
         *   Navigate to and select following file: `C:/Program Files (x64)/git/bin/git`.
     *   Restart Rstudio.
+    See also [this screenshot](http://www.molecularecologist.com/wp-content/uploads/2013/11/Screenshot-2013-11-12-09.53.56-Copy1.png).
 
 **Mac**
 
