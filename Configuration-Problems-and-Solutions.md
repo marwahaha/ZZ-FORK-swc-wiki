@@ -174,6 +174,7 @@ so that the community can find a resolution.
     *   Most online advice involved installing XCode with the command line tools,
         which is a 1.6 GByte download...
     *   Note that as April 2015, XCode for Mac OS X 10.8.5 is no longer available from the App Store, so you'll need to get an older version from the [Apple Developer website](https://developer.apple.com/downloads). For that you'll need a Developer account with Apple (so probably an instructor should do download this in advance and keep it in a USB stick).
+    *   The Snow Leopard images from the [git-osx-installer][] project work too, and don't require an XCode download.
 
 *   Trying to clone a repository from github fails with an error like `error: SSL certificate problem, verify that the CA cert is OK`
     *   A temporary fix that should allow the learner to progress with the lesson is to run
@@ -222,3 +223,4 @@ so that the community can find a resolution.
 *    Issue with sqlite3 and no readline support on the macs.  That is, up arrow will not return the last command typed.  This can be fixed, but requires installing sqlite3 from source: [sqlite3 shipts without readline support](http://muadib.blogspot.com/2005/04/sqlite3-ships-without-readline-support.html).
 
 [workshop-template]: http://github.com/swcarpentry/workshop-template
+[git-osx-installer]: http://sourceforge.net/projects/git-osx-installer/files/
