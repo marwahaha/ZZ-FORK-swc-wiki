@@ -71,6 +71,9 @@ so that the community can find a resolution.
 
 **Windows (Anaconda)**
 
+*   Anaconda apps aren't running (i.e. IPython).
+    * Make sure Git Bash is running as administrator. To fix permanently, one has to change the settings. When searching for the program, right click on Git Bash, and select 'Properties'. On the 'Compatibility' tab, check the box titled 'Run as Administrator'.
+
 *   New users can't easily open an IPython notebook in an arbitrary directory.
     *   The start menu shortcut created by Anaconda starts a notebook server in `%USERPROFILE%\Documents\IPython Notebooks` by default.
     *   New users, who may be unfamiliar with the command prompt, might have trouble opening a notebook in any other directory.
@@ -152,6 +155,14 @@ so that the community can find a resolution.
     ~~~
     git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
     ~~~
+
+*   `nano` is not installed.
+    
+    * Ensure that the Software Carpentry installer has run. Try re-executing the installer.
+
+*   The Git Bash window does not open to full screen.
+
+    * One has to change the settings. When searching for the program, right click on Git Bash, and select 'Properties'. On the 'Layout' tab, change the size to roughly 237x69.
 
 **Windows (Rstudio)**: 
 
